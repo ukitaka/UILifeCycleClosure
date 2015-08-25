@@ -22,7 +22,7 @@ pod "UILifeCycleClosure"
 
 ## Author
 
-yuki.takahashi, yuki.takahashi@dena.com
+ukitaka, yuki.takahashi.1126@gmail.com
 
 ## License
 

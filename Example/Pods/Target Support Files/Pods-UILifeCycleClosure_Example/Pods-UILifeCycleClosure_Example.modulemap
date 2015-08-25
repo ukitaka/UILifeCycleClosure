@@ -1,0 +1,6 @@
+framework module Pods_UILifeCycleClosure_Example {
+  umbrella header "Pods-UILifeCycleClosure_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

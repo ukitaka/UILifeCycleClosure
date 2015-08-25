@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="f0z-VB-jaA">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--Example2 View Controller-->
+        <scene sceneID="GAw-uF-ZZq">
+            <objects>
+                <viewController id="f0z-VB-jaA" customClass="Example2ViewController" customModule="UILifeCycleClosure_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6k8-ER-1ot"/>
+                        <viewControllerLayoutGuide type="bottom" id="Kes-cw-y92"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="MfY-Fo-UAM">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="7l5-Td-CAd">
+                                <rect key="frame" x="290" y="290" width="20" height="20"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="7l5-Td-CAd" firstAttribute="centerX" secondItem="MfY-Fo-UAM" secondAttribute="centerX" id="AtH-pF-jNr"/>
+                            <constraint firstItem="7l5-Td-CAd" firstAttribute="centerY" secondItem="MfY-Fo-UAM" secondAttribute="centerY" id="KJh-Ae-hNS"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <segue destination="ztR-Yp-SwU" kind="show" identifier="Detail" id="HYt-XF-whH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="POA-sc-JQh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="204" y="274"/>
+        </scene>
+        <!--Example2 Detail View Controller-->
+        <scene sceneID="XFr-al-2b5">
+            <objects>
+                <viewController storyboardIdentifier="Detail" id="ztR-Yp-SwU" customClass="Example2DetailViewController" customModule="UILifeCycleClosure_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="97p-dY-pPC"/>
+                        <viewControllerLayoutGuide type="bottom" id="yzU-7I-cdN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3xG-mt-1Cb">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OK" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rbd-R2-Lpx">
+                                <rect key="frame" x="288" y="289.5" width="24" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="acW-un-VPZ">
+                                <rect key="frame" x="279" y="346" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="rbd-R2-Lpx" firstAttribute="centerY" secondItem="3xG-mt-1Cb" secondAttribute="centerY" id="2iS-7Z-hme"/>
+                            <constraint firstItem="acW-un-VPZ" firstAttribute="centerX" secondItem="3xG-mt-1Cb" secondAttribute="centerX" id="YWl-Hz-Hya"/>
+                            <constraint firstItem="acW-un-VPZ" firstAttribute="top" secondItem="rbd-R2-Lpx" secondAttribute="bottom" constant="36" id="ewr-Eh-WK9"/>
+                            <constraint firstItem="rbd-R2-Lpx" firstAttribute="centerX" secondItem="3xG-mt-1Cb" secondAttribute="centerX" id="pHI-fX-J4V"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="label" destination="acW-un-VPZ" id="u57-ab-Zky"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g7S-K1-9Ug" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="886" y="274"/>
+        </scene>
+    </scenes>
+</document>

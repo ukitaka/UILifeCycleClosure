@@ -1,0 +1,20 @@
+PODS:
+  - Aspects (1.4.1)
+  - ISMethodSwizzling (0.0.2)
+  - UILifeCycleClosure (1.0.0):
+    - Aspects
+    - ISMethodSwizzling
+
+DEPENDENCIES:
+  - UILifeCycleClosure (from `../`)
+
+EXTERNAL SOURCES:
+  UILifeCycleClosure:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  ISMethodSwizzling: 5dafeb2efca548b0cc1407b265408974dfd85168
+  UILifeCycleClosure: 1f2d994b5a0f3889e76cbb5af695180a4435b959
+
+COCOAPODS: 0.39.0

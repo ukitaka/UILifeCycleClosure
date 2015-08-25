@@ -1,0 +1,6 @@
+framework module UILifeCycleClosure {
+  umbrella header "UILifeCycleClosure-umbrella.h"
+
+  export *
+  module * { export * }
+}
