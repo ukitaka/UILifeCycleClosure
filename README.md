@@ -1,6 +1,6 @@
 # UILifeCycleClosure
 
-[![CI Status](http://img.shields.io/travis/yuki.takahashi/UILifeCycleClosure.svg?style=flat)](https://travis-ci.org/yuki.takahashi/UILifeCycleClosure)
+[![Build Status](https://travis-ci.org/ukitaka/UILifeCycleClosure.svg)](https://travis-ci.org/ukitaka/UILifeCycleClosure)
 [![Version](https://img.shields.io/cocoapods/v/UILifeCycleClosure.svg?style=flat)](http://cocoapods.org/pods/UILifeCycleClosure)
 [![License](https://img.shields.io/cocoapods/l/UILifeCycleClosure.svg?style=flat)](http://cocoapods.org/pods/UILifeCycleClosure)
 [![Platform](https://img.shields.io/cocoapods/p/UILifeCycleClosure.svg?style=flat)](http://cocoapods.org/pods/UILifeCycleClosure)
