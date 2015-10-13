@@ -46,16 +46,6 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "UILifeCycleClosure_Tests.xctest"
-               BlueprintName = "UILifeCycleClosure_Tests"
-               ReferencedContainer = "container:UILifeCycleClosure.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "B8E7BA801BCCDE4D0023CB68"
                BuildableName = "UnitTests.xctest"
                BlueprintName = "UnitTests"
@@ -63,7 +53,7 @@
             </BuildableReference>
          </TestableReference>
          <TestableReference
-            skipped = "NO">
+            skipped = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B8E7BA931BCCFF620023CB68"
