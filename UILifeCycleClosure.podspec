@@ -9,10 +9,13 @@
 Pod::Spec.new do |s|
   s.name             = "UILifeCycleClosure"
   s.version          = "1.0.0"
-  s.summary          = "A short description of UILifeCycleClosure."
+  s.summary          = "afterViewDidLoad, afterViewDidAppear, afterAwakeFromNib."
 
   s.description      = <<-DESC
-                       DESC
+  `afterViewDidLoad` guarantees that block will invoke after `viewDidLoad`.
+  `afterViewDidAppear` guarantees that block will invoke after `viewDidAppear`.
+  `afterAwakeFromNib` guarantees that block will invoke after `viewDidAppear`.
+  DESC
 
   s.homepage         = "https://github.com/ukitaka/UILifeCycleClosure"
   s.license          = 'MIT'
