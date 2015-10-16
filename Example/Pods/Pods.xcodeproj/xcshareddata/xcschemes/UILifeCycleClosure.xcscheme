@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'BD8993F46B63140A642437D3'
+               BlueprintIdentifier = '1AA5E14585918FE19F7BE5F2'
                BlueprintName = 'UILifeCycleClosure'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'UILifeCycleClosure.framework'>

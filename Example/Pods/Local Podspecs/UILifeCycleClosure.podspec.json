@@ -1,8 +1,7 @@
 {
   "name": "UILifeCycleClosure",
   "version": "1.0.0",
-  "summary": "A short description of UILifeCycleClosure.",
-  "description": "",
+  "summary": "Provide a util method for UIView, UIViewController life cycle.",
   "homepage": "https://github.com/ukitaka/UILifeCycleClosure",
   "license": "MIT",
   "authors": {

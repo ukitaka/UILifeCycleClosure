@@ -15,6 +15,6 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
   ISMethodSwizzling: 5dafeb2efca548b0cc1407b265408974dfd85168
-  UILifeCycleClosure: 1f2d994b5a0f3889e76cbb5af695180a4435b959
+  UILifeCycleClosure: f27baac486d91e0ce711adbae66bd0dca5edeb13
 
 COCOAPODS: 0.39.0
